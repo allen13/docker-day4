@@ -37,7 +37,7 @@ In order to get around these two limitations you can use [volumes](https://docs.
 docker compose
 --------------
 
-`docker-compose` is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
+`docker-compose` is a tool for defining and running multi-container Docker applications. With `docker-compose`, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. This will also trigger docker builds as well if specified.
 
 * [docker compose](https://docs.docker.com/compose/)
 
