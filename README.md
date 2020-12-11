@@ -70,6 +70,18 @@ Embracing this abstraction makes your stack a lot more portable and adds flexibi
 
 * [top 7 benefits of containers](https://blog.kumina.nl/2017/04/the-benefits-of-containers-and-container-technology/)
 
+docker 2 challenge
+------------------
+
+Deploy and utilize a local docker registry. Follow [this guide](https://docs.docker.com/registry/deploying/).
+
+* Run a docker registry. Use either a `docker run` command or `docker-compose`
+* When running the registy choose a persistent volume to write images to
+* Tag and push an image to it
+* Delete the tagged and original image
+* Stop and destroy the container
+* Re-run the container and make sure to use the same volume
+* Pull the image from the local registry to verify everything worked
 
 
 
