@@ -16,7 +16,7 @@ One of the reasons Docker containers and services are so powerful is that you ca
 
 Complete this docker networking lab:
 
-* [network basics](https://github.com/docker/labs/blob/master/networking/A1-network-basics.md)
+* [network basics](https://docs.docker.com/network/network-tutorial-standalone/)
 
 docker storage
 --------------
